@@ -1,7 +1,5 @@
 <?php
 
-require 'curl/curl.php';
-
 class InstagramRealTime {
 	private $settings = array();
 	private $base_url = 'https://api.instagram.com/v1';
