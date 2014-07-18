@@ -65,7 +65,7 @@ class InstagramRealTime {
 		$params = array_merge( $this->settings, $params );
 		$url = $this->base_url . $endpoint;
 		$this->last_url = $url;
-		$response = $curl->get($url, $params);
+		$response = $curl->post($url, $params);
 		$this->headers = $response->headers;
 		return(json_decode($response, true));
 	}
