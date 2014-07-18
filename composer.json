@@ -3,6 +3,9 @@
 	"type": "composer",
 	"description": "PHP Instagram API client",
 	"license": "MIT",
+	"require": {
+		"aseba/curl": "dev-master"
+	}
 	"autoload": {
 		"classmap":
 		[
