@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"require": {
 		"aseba/curl": "dev-master"
-	}
+	},
 	"autoload": {
 		"classmap":
 		[
